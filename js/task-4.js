@@ -1,4 +1,4 @@
-const form = document.querySelector("login-form"); // login-form elementini JS'de seçtik
+const loginForm = document.querySelector("login-form"); // login-form elementini JS'de seçtik
 
 loginForm.addEventListener("submit", (event) => {
   event.preventDefault(); //sayfanın yenilenmesini engeller
