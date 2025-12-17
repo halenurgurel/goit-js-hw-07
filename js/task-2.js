@@ -30,7 +30,7 @@ const galleryList = document.querySelector(".gallery"); // ul elementini seçtik
 const markup = images
   .map(
     (image) => `<li class="gallery-item">
-    <img src="${image.url}" alt="${image.alt}"
+    <img src="${image.url}" alt="${image.alt}">
     </li>`
   )
   .join("");
